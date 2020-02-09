@@ -1,0 +1,150 @@
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 150%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header, main {
+  padding: 2rem;
+}
+
+header {
+  background-image: url("../Images/night_sky.jpg");
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  margin: 0;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  color: #9399ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #ffa41b;
+}
+
+article p {
+  line-height: 2;
+  margin: 0 auto;
+  text-align: left;
+  width: 75%;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #C8C8C8;
+  border-width: 15px;
+  margin: 8rem auto;
+  width: 10%;
+}
+
+article[id="my-interests"] img {
+  border-radius: 50%;
+  width: 25%;
+}
+
+article[id="my-interests"] section {
+  margin: 5rem auto;
+  text-align: left;
+  width: 80%;
+}
+
+article[id="my-interests"] section p {
+  font-size: 1.25rem;
+}
+
+article[id="contact-me"] button {
+  background-color: #d0d0d5;
+  border: solid #142850;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  margin: 2.5rem auto;
+  padding: 1.5rem;
+  text-transform: uppercase;
+  transition: 0.25s;
+}
+
+article[id="contact-me"] button:hover {
+  background-color: #142850;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1b262c;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 2rem;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:visited {
+  color: white;
+}
+
+.ufo {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+  width: 8%;
+}
+
+.rocket {
+  position: absolute;
+  bottom: 250px;
+  left: 150px;
+  width: 10%;
+}
+
+.profile-pic {
+  width: 15%;
+}
+
+.interest-left {
+  float: left;
+  margin-right: 3rem;
+}
+
+.interest-right {
+  float: right;
+  margin-left: 3rem;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.copyright {
+  color: lightgray;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
